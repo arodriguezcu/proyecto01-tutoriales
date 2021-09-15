@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 8090
 
 spring:
   cloud:
@@ -8,10 +8,10 @@ spring:
         git:
           uri: https://github.com/arodriguezcu/proyecto01-tutoriales.git
           searchPaths: config-data
-#          username: ${GIT_USER}
-#          password: ${GIT_PASSWORD}
+          username: ${GIT_USER}
+          password: ${GIT_PASSWORD}
                               
-#  security:
-#    user:
-#      name: root
-#      password: 123
+  security:
+    user:
+      name: root
+      password: 123
