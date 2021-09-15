@@ -8,8 +8,8 @@ spring:
         git:
           uri: https://github.com/arodriguezcu/proyecto01-tutoriales.git
           searchPaths: config-data
-          username: ${GIT_USER}
-          password: ${GIT_PASSWORD}
+#          username: ${GIT_USER}
+#          password: ${GIT_PASSWORD}
                               
   security:
     user:
